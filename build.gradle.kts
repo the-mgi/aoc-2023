@@ -1,10 +1,18 @@
 plugins {
     kotlin("jvm") version "1.9.21"
     application
+    id("idea")
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
+group = "org.the-mgi"
+version = "0.1.1"
+
+idea {
+    module {
+        isDownloadJavadoc = true
+        isDownloadSources = true
+    }
+}
 
 repositories {
     mavenCentral()
