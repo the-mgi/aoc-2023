@@ -1,4 +1,4 @@
-package com.the_mgi.advent_of_code_2023.day_01
+package com.the_mgi.advent_of_code_2023
 
 import java.io.File
 
@@ -42,22 +42,22 @@ fun calibrateValuesWithStringNames(filePath: String) = File(filePath)
         }
         finalString.toInt()
     }
-
-fun main() {
-    val basePath =
-        "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_01/"
-
-    val partOneCase01 = calibrationValues("${basePath}input-day-01-part-01-case-01")
-    assert(partOneCase01 == 142)
-    val part01Case02 = calibrationValues("${basePath}input-day-01-part-01-case-02")
-    assert(part01Case02 == 54081)
-    println(partOneCase01)
-    println(part01Case02)
-
-    val part02Case01 = calibrateValuesWithStringNames("${basePath}input-day-01-part-02-case-01")
-    assert(part02Case01 == 281)
-    val part02Case02 = calibrateValuesWithStringNames("${basePath}input-day-01-part-02-case-02")
-    assert(part02Case02 == 54649)
-    println(part02Case01)
-    println(part02Case02)
-}
+//
+//fun main() {
+//    val basePath =
+//        "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_01/"
+//
+//    val partOneCase01 = calibrationValues("${basePath}input-day-01-part-01-case-01")
+//    assert(partOneCase01 == 142)
+//    val part01Case02 = calibrationValues("${basePath}input-day-01-part-01-case-02")
+//    assert(part01Case02 == 54081)
+//    println(partOneCase01)
+//    println(part01Case02)
+//
+//    val part02Case01 = calibrateValuesWithStringNames("${basePath}input-day-01-part-02-case-01")
+//    assert(part02Case01 == 281)
+//    val part02Case02 = calibrateValuesWithStringNames("${basePath}input-day-01-part-02-case-02")
+//    assert(part02Case02 == 54649)
+//    println(part02Case01)
+//    println(part02Case02)
+//}
