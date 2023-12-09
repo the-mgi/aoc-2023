@@ -3,7 +3,7 @@ package com.the_mgi.advent_of_code_2023
 fun main() {
   // ========================================= Question # 01 ========================================= //
   val basePathQ1 =
-    "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_01/"
+    "/Users/themgi/open-source/advent-of-code/aoc-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_01/"
 
   val partOneCase01Q1 = calibrationValues("${basePathQ1}input-day-01-part-01-case-01")
   assert(partOneCase01Q1 == 142)
@@ -21,7 +21,7 @@ fun main() {
 
   // ========================================= Question # 02 ========================================= //
   val basePathQ2 =
-    "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_02/"
+    "/Users/themgi/open-source/advent-of-code/aoc-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_02/"
   val part01Case01Q2 = calculateTotalSumOfGameIds("${basePathQ2}input-day-02-part-01-case-01")
   assert(part01Case01Q2 == 8)
   val part01Case02Q2 = calculateTotalSumOfGameIds("${basePathQ2}input-day-02-part-01-case-02")
@@ -38,7 +38,7 @@ fun main() {
 
   // ========================================= Question # 04 ========================================= //
   val basePathQ4 =
-    "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/"
+    "/Users/themgi/open-source/advent-of-code/aoc-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/"
   val part01Case01 =
     calculateTotalSumOfWinningNumbers("${basePathQ4}input-day-04-part-01-case-01")
   println(part01Case01)
