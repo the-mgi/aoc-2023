@@ -6,8 +6,7 @@ data class Card(
   val id: Int,
   val winningNumbers: List<Int>,
   val myNumbers: List<Int>,
-  val totalMatches: Int,
-  var totalNumberConsumed: Int = 1
+  val totalMatches: Int
 )
 
 fun List<String>.takeIfNumber(): List<String> {
