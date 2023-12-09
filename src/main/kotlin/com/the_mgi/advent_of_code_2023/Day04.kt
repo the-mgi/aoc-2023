@@ -85,21 +85,3 @@ fun calculateTotalNumberOfScratchCards(inputString: String): Int {
   }
   return completeList.size
 }
-
-fun main() {
-  val part01Case01 =
-    calculateTotalSumOfWinningNumbers("/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/input-day-04-part-01-case-01")
-  println(part01Case01)
-
-  val part01Case02 =
-    calculateTotalSumOfWinningNumbers("/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/input-day-04-part-01-case-02")
-  println(part01Case02)
-
-  val part02Case01 =
-    calculateTotalNumberOfScratchCards("/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/input-day-04-part-01-case-01")
-  println(part02Case01)
-
-  val part02Case02 =
-    calculateTotalNumberOfScratchCards("/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_04/input-day-04-part-01-case-02")
-  println(part02Case02)
-}

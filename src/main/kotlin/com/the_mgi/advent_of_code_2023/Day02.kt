@@ -64,21 +64,3 @@ fun calculateMinimumNumberPowerSet(inputFile: String) = File(inputFile)
     }
     minValueMap.values.reduce { acc, i -> acc * i }
   }
-
-//fun main() {
-//    val basePath =
-//        "/Users/themgi/open-source/advent-of-code-2023/src/test/kotlin/com/the_mgi/advent_of_code_2023/day_02/"
-//    val part01Case01 = calculateTotalSumOfGameIds("${basePath}input-day-02-part-01-case-01")
-//    assert(part01Case01 == 8)
-//    val part01Case02 = calculateTotalSumOfGameIds("${basePath}input-day-02-part-01-case-02")
-//    assert(part01Case02 == 2076)
-//    println(part01Case01)
-//    println(part01Case02)
-//
-//    val part02Case01 = calculateMinimumNumberPowerSet("${basePath}input-day-02-part-01-case-01")
-//    assert(part01Case01 == 2286)
-//    val part02Case02 = calculateMinimumNumberPowerSet("${basePath}input-day-02-part-01-case-02")
-//    assert(part01Case01 == 70950)
-//    println(part02Case01)
-//    println(part02Case02)
-//}
